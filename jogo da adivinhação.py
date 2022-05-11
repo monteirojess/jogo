@@ -5,6 +5,7 @@ cont = 0
 usuario = 0
 
 computador = randint(1, 100)
+
 while usuario != computador:
     usuario = int(input('Digite um número:'))
     cont += 1
